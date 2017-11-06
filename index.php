@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title></title>
-        <meta name="description" content="">
+        <meta name="description" content="chekkit is an anti-counterfeiting techonology company creating software to validate genuine drugs, educate on proper use and give indepth supply chain insight.">
+        <<meta name="keyword" content="checkit, check, chekkit, counterfeit detector, check results, cheki, check kit, fake drugs, fake drugs in Africa, Mobile authentication system, qrcode scanner, market insights, supply chain management insights, anticounterfeiting technology, Africa proverty, manufacturers, pharmaceuticals, pharmaceutical manufacturers in Africa, drug abuse, drug education, drug misuse, medicine wizkid, sproxil, mpedigree, Nigeria, Ghana">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -14,17 +15,9 @@
         <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="bower_components/font-awesome/fonts/fontawesome-webfont.woff">
         <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oxygen:700" rel="stylesheet">
-        <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300,400" rel="stylesheet"> -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
-        <!--<link rel="stylesheet" href="css/main.css"> -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:300,700|Raleway:300,400" rel="stylesheet">
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
         <section>
         	<nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
@@ -61,14 +54,16 @@
             </nav>
 
             <section class="banner" id="index">
+            	<div class="col-md-12 first-banner"><img src="img/bg.jpg" /></div>
+            	<div class="col-md-12 first-banner"><img src="img/bg2.jpg" /></div>
             	<div class="banner-overlay"></div>
             	<div class="container">
             		<div class="row the-row">
             			<div class="col-md-9 banner-inner">
 	            			<div class="col-md-5 banner-info">
-	            				<h2>Connect, Verify, Trust!</h2>
-	            				<p>We invent technologies to protect life</br>and give real time supply chain insights.</p>
-	            				<a href="#sign-up"><div class="btn signup-btn">Sign Up <i class="fa fa-rarrow"></i></div></a>
+	            				<h2>Connect. Verify. Trust.</h2>
+	            				<p>...technology to validate product authenticity and give supply chain insights</p>
+	            				<a href="#features"><div class="btn signup-btn">Learn More <i class="fa fa-arrow"></i></div></a>
 	            			</div>
 	            			<div class="col-md-7"><img src="img/banner_phone.png" alt="" class="phone-img"></div>
             			</div>
@@ -91,7 +86,7 @@
 	            					</div>
 	            					<div>
 		            					<h2>Brand Protection</h2>
-		            					<p>Unique QRcode and short code to check if your product is genuine using the Chekkit app or SMS code</p>
+		            					<p>Unique QRcode and short code to check if your product is genuine using the Chekkit app or text message</p>
 	            					</div>
 	            				</div>
 	            				<div class="col-md-12 feature-info-icon">
@@ -99,8 +94,8 @@
 		            					<img src="img/relationship-icon.png" alt="" />
 		            				</div>
 		            				<div>
-		            					<h2>Consumer Relationship</h2>
-		            					<p>Ensure your consumer have adequate knowledge on drug use with simple ilustration and voice prompt in thier local language</p>
+		            					<h2>Consumer Education</h2>
+		            					<p>Ensure your consumer have adequate knowledge on drug use with simple illustration and voice prompt in thier local languages</p>
 		            				</div>
 	            				</div>
 	            				<div class="col-md-12 feature-info-icon">
@@ -108,7 +103,7 @@
 		            					<img src="img/security-icon.png" alt="" />
 	            					</div>
 	            					<div>
-		            					<h2>Optimize Security</h2>
+		            					<h2>Optimized Security</h2>
 		            					<p>Unique codes on items are end to end encrypted and logged in blockchain</p>
 	            					</div>
 	            				</div>
@@ -129,7 +124,7 @@
 	            				<div class="col-md-12 feature-info-icon">
 	            					<div>
 		            					<h2>Verified History</h2>
-		            					<p>See all drugs you have validated over time with Chekkit</p>
+		            					<p>Anyone can see all drugs they have validated over time using their Chekkit app</p>
 	            					</div>
 	            					<div class="feature-icon">
 		            					<img src="img/history-icon.png" alt="" />
@@ -138,7 +133,7 @@
 	            				<div class="col-md-12 feature-info-icon">
 	            					<div>
 		            					<h2>Consumer Insights</h2>
-		            					<p>Chekkit ensures secured product information from warehouse to end user</p>
+		            					<p>Get real time supply chain managment insights from warehouse to end user</p>
 	            					</div>
 	            					<div class="feature-icon">
 		            					<img src="img/insight-icon.png" alt="" />
@@ -227,6 +222,12 @@
 
 
 <script>
+
+
+	$(function(){
+		$('').bind
+	})
+
 	$(function() {
 	$('ul.nav a').bind('click',function(event){
 		var $anchor = $(this);
@@ -286,6 +287,5 @@
 		});
 	});
 </script>
-
-    </body>
+</body>
 </html>
