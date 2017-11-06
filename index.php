@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="bower_components/font-awesome/fonts/fontawesome-webfont.woff">
         <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oxygen:700" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300,400" rel="stylesheet"> -->
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
         <!--<link rel="stylesheet" href="css/main.css"> -->
     </head>
