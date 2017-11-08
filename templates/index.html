@@ -1,0 +1,307 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="chekkit is an anti-counterfeiting techonology company creating software to validate genuine drugs, educate on proper use and give indepth supply chain insight.">
+        <<meta name="keyword" content="checkit, check, chekkit, counterfeit detector, check results, cheki, check kit, fake drugs, fake drugs in Africa, Mobile authentication system, qrcode scanner, market insights, supply chain management insights, anticounterfeiting technology, Africa proverty, manufacturers, pharmaceuticals, pharmaceutical manufacturers in Africa, drug abuse, drug education, drug misuse, medicine wizkid, sproxil, mpedigree, Nigeria, Ghana">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="{{url_for('static', filename='bootstrap/dist/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='font-awesome/css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='font-awesome/fonts/fontawesome-webfont.woff')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:300,700|Raleway:300,400" rel="stylesheet">
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
+        <!--<link rel="stylesheet" href="css/main.css"> -->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <section>
+        	<nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                <div class="row">
+                	
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					    </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <div class="col-md-4">
+                            <a href="#index"><img src="{{url_for('static', filename='img/logo3.png')}}" class="mlogo" /></a>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="nav navbar-nav navbar-adjust">
+                                <!-- <li class="active"><a href="#/">Home<span class="sr-only">(current)</span></a></li> -->
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#sign-up" ng-click="runStack()">Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 scart">
+                            <a href="#index"><img src="{{url_for('static', filename='img/icon-cart.png')}}" /></a>
+                        </div>
+
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+                </div>
+                <!--/.container-fluid -->
+            </nav>
+
+            <section class="banner" id="index">
+            	<div class="col-md-12 first-banner"><img src="{{url_for('static', filename='img/bg.jpg')}}" /></div>
+            	<div class="col-md-12 first-banner"><img src="{{url_for('static', filename='img/bg2.jpg')}}" /></div>
+            	<div class="banner-overlay"></div>
+            	<div class="container">
+            		<div class="row the-row">
+            			<div class="col-md-9 banner-inner">
+	            			<div class="col-md-5 banner-info">
+	            				<h2>Connect, Verify, Trust!</h2>
+	            				<p>...technology to validate product authenticity and give supply chain insights</p>
+	            				<a href="#features"><div class="btn signup-btn">Learn More <i class="fa fa-arrow-right" style="margin-left:10px;"></i></div></a>
+	            			</div>
+	            			<div class="col-md-7"><img src="{{url_for('static', filename='img/banner_phone.png')}}" alt="" class="phone-img"></div>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+
+            <section class="second-sect" id="features">
+            	<div class="container">
+            		<div class="row features">
+	            		<div class="col-md-12">
+            				<h2 class="why-chekkit">Why Use Chekkit</h2>
+            				<div class="header-divide"></div>
+            			</div>
+            			<div class="col-md-12 other-row">
+	            			<div class="second-sect-img left-features col-md-4">
+	            				<div class="col-md-12 feature-info-icon">
+	            					<div class="feature-icon">
+		            					<img src="{{url_for('static', filename='img/protect-icon.png')}}" alt="" />
+	            					</div>
+	            					<div>
+		            					<h2>Brand Protection</h2>
+		            					<p>Unique QRcode and short code to check if your product is genuine using the Chekkit app or text message</p>
+	            					</div>
+	            				</div>
+	            				<div class="col-md-12 feature-info-icon">
+		            				<div class="feature-icon">
+		            					<img src="{{url_for('static', filename='img/relationship-icon.png')}}" alt="" />
+		            				</div>
+		            				<div>
+		            					<h2>Consumer Education</h2>
+		            					<p>Ensure your consumer have adequate knowledge on drug use with simple illustration and voice prompt in thier local languages</p>
+		            				</div>
+	            				</div>
+	            				<div class="col-md-12 feature-info-icon">
+	            					<div class="feature-icon">
+		            					<img src="{{url_for('static', filename='img/security-icon.png')}}" alt="" />
+	            					</div>
+	            					<div>
+		            					<h2>Optimized Security</h2>
+		            					<p>Unique codes on items are end to end encrypted and logged in blockchain</p>
+	            					</div>
+	            				</div>
+	            			</div>
+	            			<div class="second-sect-img col-md-4">
+		            			<img src="{{url_for('static', filename='img/sec-phone.png')}}" alt="">
+	            			</div>
+	            			<div class="second-sect-img right-features col-md-4">
+		            			<div class="col-md-12 feature-info-icon">
+		            				<div>
+		            					<h2>Reminder</h2>
+		            					<p>Get timely notifications to help ensure your consumer follows prescriptions</p>
+		            				</div>
+		            				<div class="feature-icon">
+		            					<img src="{{url_for('static', filename='img/reminder-icon.png')}}" alt="" />
+		            				</div>
+	            				</div>
+	            				<div class="col-md-12 feature-info-icon">
+	            					<div>
+		            					<h2>Verified History</h2>
+		            					<p>Anyone can see all drugs they have validated over time using their Chekkit app</p>
+	            					</div>
+	            					<div class="feature-icon">
+		            					<img src="{{url_for('static', filename='img/history-icon.png')}}" alt="" />
+	            					</div>
+	            				</div>
+	            				<div class="col-md-12 feature-info-icon">
+	            					<div>
+		            					<h2>Consumer Insights</h2>
+		            					<p>Get real time supply chain managment insights from warehouse to end user</p>
+	            					</div>
+	            					<div class="feature-icon">
+		            					<img src="{{url_for('static', filename='img/insight-icon.png')}}" alt="" />
+	            					</div>
+	            				</div>
+	            			</div>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+
+            <section class="third-sect" id="sign-up">
+            	<div class="container">
+            		<div class="row other-row">
+            			<div class="col-md-6 last-phone">
+            				<img src="{{url_for('static', filename='img/third-phone.png')}}" alt="">
+            			</div>
+            			<div class="col-md-6">
+            				<form>
+	            				<h2>Be The First To Know</h2>
+	            				<div class="white-header-divide"></div>
+	            				<div class="col-md-12 input-section no-padding">
+		            				<input type="text" name="fullname" placeholder="Full Name" />
+	            				</div>
+	            				<div class="col-md-12 input-section no-padding">
+		            				<input type="text" name="phone" placeholder="Phone Number" />
+	            				</div>
+	            				<div class="col-md-12 input-section no-padding">
+		            				<input type="text" name="email" placeholder="Email" />
+	            				</div>
+	            				<div class="col-md-12 input-section no-padding">
+		            				<select name="location">
+		            					<option value="None">Location</option>
+		            					<option value="Accra">Accra</option>
+		            					<option value="Kumasi">Kumasi</option>
+		            					<option value="Lagos">Lagos</option>
+		            					<option value="Others">Others</option>
+		            				</select>
+	            				</div>
+	            				<div class="col-md-12 input-section">
+		            				<input type="text" name="address" placeholder="Address" />
+	            				</div>
+	            				<div class="register-btn-parent">
+		            				<button type="button" class="btn register-btn" onclick="">Register</button>
+            						<img src="{{url_for('static', filename='img/ripple.gif')}}" alt="" id="loader">
+	            				</div>
+	            				<div class="form-msg" style="display:none; margin-top: 20px">
+	            					<p style="font-size:16px;">Great! We have just sent you a mail :)</p>
+	            				</div>
+	            				<div class="social-media">
+	            					<i class="fa fa-facebook"></i>
+	            					<i class="fa fa-twitter"></i>
+	            				</div>
+            				</form>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+            <section class="partner-sect">
+            	<div class="container">
+            		<div class="row">
+            			<div class="col-md-12">
+            				<h2>Partners</h2>
+            				<div class="header-divide"></div>
+            				<img src="{{url_for('static', filename='img/mest-logo.png')}}" alt="">
+            			</div>
+            		</div>
+            	</div>
+            </section>
+        </section>
+        <footer>
+        	<div class="foot">
+        		<p>Copyright &copy; 2017 Chekkit</p>
+        	</div>
+        </footer>
+
+        <!-- <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+        <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script> -->
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+<script type="text/javascript" src="{{url_for('static', filename='jquery/dist/jquery.min.js')}}"></script>	
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>	 -->
+<script type="text/javascript" src="{{url_for('static', filename='js/jquery.easing.1.3.js')}}"></script>
+
+
+
+<script>
+
+
+	$(function(){
+		$('').bind
+	})
+
+	$(function() {
+	$('ul.nav a').bind('click',function(event){
+		var $anchor = $(this);
+
+		$('html, body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top
+		}, 1500,'easeInOutExpo');
+		/*
+		if you don't want to use the easing effects:
+		$('html, body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top
+		}, 1000);
+		*/
+		event.preventDefault();
+	});
+});
+
+
+
+	$('.register-btn').bind('click', function(event){
+
+		event.preventDefault();
+
+		var value = $('form').serialize();
+
+		console.log(value);
+
+		$(document).ajaxStart(function(){
+			// console.log("IN HERE");
+        // $('#loader').css('display','block');
+        $('#loader').show();
+    });
+
+		request = $.ajax({
+					url:"/getem",
+					type: "post",
+					data: value
+		});
+
+		
+    $(document).ajaxComplete(function(){
+			console.log("OUT HERE");
+
+        $('#loader').hide();
+    });
+
+		request.done(function (response, textStatus, jqXHR){
+				
+				console.log(response);
+				if (response == 'success'){
+					$('form')[0].reset();
+					$('.form-msg').fadeIn();
+					$('.form-msg').fadeOut(10000);
+
+				}				
+
+		});
+
+		request.fail(function (jqXHR, textStatus, errorThrown){
+				alert(textStatus);
+		});
+	});
+</script>
+</body>
+</html>
